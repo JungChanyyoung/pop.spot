@@ -12,23 +12,17 @@ export default function RootLayout({ children }) {
 
   useEffect(() => {
     function handleResize() {
-      const isMobileSize = window.innerWidth <= 768;
-      setIsMobileView(isMobileSize);
-      if (!isMobileSize && sidebarVisible) {
-        setSidebarVisible(false);
-      }
+      setIsMobileView(window.innerWidth <= 768);
     }
 
     window.addEventListener("resize", handleResize);
     handleResize();
 
     return () => window.removeEventListener("resize", handleResize);
-  }, [sidebarVisible]);
+  }, []);
 
   const toggleSidebar = () => {
-    if (isMobileView) {
-      setSidebarVisible(!sidebarVisible);
-    }
+    setSidebarVisible((prev) => !prev);
   };
 
   return (

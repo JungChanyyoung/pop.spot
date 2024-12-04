@@ -28,8 +28,8 @@ export default function CorpAdmin() {
           return;
         }
       } catch (error) {
-        window.alert("권리자 권한이 없습니다");
-        router.push("/");
+        //window.alert("권리자 권한이 없습니다");
+        //router.push("/");
       }
     };
     validateAdmin();
