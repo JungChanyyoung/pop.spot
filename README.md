@@ -6,8 +6,14 @@
 
 ## 프로젝트 소개
 - 서울의 팝업스토어 정보를 한곳에서 확인할 수 있습니다.
-- 사용자들은 사전예약 및 현장대기 서비스를 통해 대기 시간을 줄이고, 편리하게 이용할 수 있습니다.
+- 사용자들은 사전예약 및 현장대기 서비스를 통해 대기 시간을 줄이고 편리하게 이용할 수 있습니다.
 - 팝업스토어 업체 관리자가 사전예약 및 현장대기 현황을 쉽게 관리할 수 있습니다.
+## 프로젝트 기획
+- 플로우차트 : 구상한 기능을 페이지별로 나누고 유저의 사용자 경험을 따라 플로우차트를 작성
+- 아키텍처 : next.js를 사용해보자
+- 와이어프레임 : 기획을 바탕으로 구체적인 페이지의 와이어 프레임을 피그마로 작성
+
+<img src="https://blog.kakaocdn.net/dn/lrbGL/btsNiDpWvEi/CdjznRq1G71uXEKm8rcv8K/img.png" width="300">   <img src="https://blog.kakaocdn.net/dn/bhzX3m/btsNjDxrDGw/6IoPzK4kWAhMLnxTbmbo4k/img.png" width="300" height="220">   <img src="https://blog.kakaocdn.net/dn/bMDwFV/btsNlggeBLX/nDbOtPn47VrWjHoA8mk6t0/img.png" width="300" height="220">
 
 <br>
 
